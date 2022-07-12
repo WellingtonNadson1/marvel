@@ -1,0 +1,13 @@
+.nav{
+    list-style: none;
+    gap: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    text-align: center;
+    background: #202020;
+    color: white;
+    padding: 0 1.125rem;
+    height: 2.5rem;
+}

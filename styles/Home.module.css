@@ -108,6 +108,30 @@
   margin-left: 0.5rem;
 }
 
+.flayout{
+  background: #eaeaea;
+  margin-bottom: 1rem;
+  height: 288px;
+  width: 120px
+}
+
+.flayout li{
+  
+  list-style: none;
+  text-align: center;
+}
+
+.gridCards ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.gridCards li{
+  background: #eaeaea;
+  border: 1px solid #eaeaea;
+  padding: 0.2rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
